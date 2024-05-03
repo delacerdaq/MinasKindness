@@ -37,7 +37,7 @@
       
                         <div class="text-center pt-1 mb-5 pb-1">
                           <input type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3">
-                          <a class="text-muted" href="#!">Forgot password?</a>
+                          <a class="text-muted" href="recuperar_senha.php">Forgot password?</a>
                         </div>
       
                         <div class="d-flex align-items-center justify-content-center pb-4">
