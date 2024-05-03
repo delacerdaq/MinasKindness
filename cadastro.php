@@ -13,38 +13,38 @@
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="inputName">Nome</label>
-            <input type="text" id="inputName" class="form-control" placeholder="John" required>
+            <input name="nome" type="text" id="inputName" class="form-control" placeholder="John" required>
         </div>
         <div class="form-group col-md-6">
             <label for="inputSurname">Sobrenome</label>
-            <input type="text" class="form-control" id="inputSurname" placeholder="Doe" required>
+            <input name="sobrenome" type="text" class="form-control" id="inputSurname" placeholder="Doe" required>
         </div>
         <div class="form-group col-md-6">
             <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="doejohnn@email.com" required>
+            <input name="email" type="email" class="form-control" id="inputEmail4" placeholder="doejohnn@email.com" required>
         </div>
         <div class="form-group col-md-6">
             <label for="inputPassword4">Senha</label>
-            <input type="password" class="form-control" id="inputPassword4" placeholder="123@abc" required>
+            <input name="senha" type="password" class="form-control" id="inputPassword4" placeholder="123@abc" required>
         </div>
     </div>
     <div class="form-group">
         <label for="inputAddress">Endereço</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="Av Vinicius de Morais, 25" required>
+        <input name="endereco" type="text" class="form-control" id="inputAddress" placeholder="Av Vinicius de Morais, 25" required>
     </div>
     <div class="form-group">
         <label for="inputAddress2">Complemento</label>
-        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, casa, sítio...">
+        <input name="complemento" type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, casa, sítio...">
     </div>
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="inputCity">Cidade</label>
-            <input type="text" class="form-control" id="inputCity" required>
+            <input name="cidade" type="text" class="form-control" id="inputCity" required>
         </div>
 
         <div class="form-group col-md-4">
             <label for="inputState">Estado</label>
-            <select id="inputState" class="form-control" required>
+            <select name="estado" id="inputState" class="form-control" required>
                 <option selected hidden>Escolha...</option>
                 <option value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
