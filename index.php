@@ -23,7 +23,7 @@
                         <h4 class="mt-1 mb-5 pb-1">We are The Lotus Team</h4>
                       </div>
       
-                      <form>
+                      <form method="POST" action="">
                         <p>Please login to your account</p>
       
                         <div data-mdb-input-init class="form-outline mb-4">
@@ -41,7 +41,7 @@
                         </div>
       
                         <div class="d-flex align-items-center justify-content-center pb-4">
-                          <p class="mb-0 me-2">Don't have an account?</p>
+                          <a class="text-muted" href="#!">Don't have an account?</a>
                           <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-danger">Create new</button>
                         </div>
       
