@@ -23,7 +23,7 @@
                         <h4 class="mt-1 mb-5 pb-1">We are The Lotus Team</h4>
                       </div>
       
-                      <form method="POST" action="">
+                      <form method="POST" action="validalogin.php">
                         <p>Please login to your account</p>
       
                         <div data-mdb-input-init class="form-outline mb-4">
@@ -36,7 +36,7 @@
                         </div>
       
                         <div class="text-center pt-1 mb-5 pb-1">
-                          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Log in</button>
+                          <input type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3">
                           <a class="text-muted" href="#!">Forgot password?</a>
                         </div>
       
