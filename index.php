@@ -42,7 +42,6 @@
       
                         <div class="d-flex align-items-center justify-content-center pb-4">
                           <a class="text-muted" href="cadastro.php">Don't have an account?</a>
-                          <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-danger">Create new</button>
                         </div>
       
                       </form>
