@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
 </head>
 
 <body>
-
+    
+<section id="conteiner-main">
 <form action="insert.php" method="POST">
+
+    <article id="info-form">
+
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="inputName">Nome</label>
@@ -39,7 +44,7 @@
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="inputCity">Cidade</label>
-            <input name="cidade" type="text" class="form-control" id="inputCity" required>
+            <input name="cidade" type="text" class="form-control" id="inputCity" placeholder="Belo Horizonte" required>
         </div>
 
         <div class="form-group col-md-4">
@@ -76,8 +81,13 @@
             </select>
         </div>
     </div>
-    <button type="submit" class="btn btn-primary">Enviar</button>
+    <button type="submit" id="btn-submit" class="btn btn-primary">Enviar</button>
+
+    </article>
+
 </form>
+
+</section>
 
 </body>
 </html>
