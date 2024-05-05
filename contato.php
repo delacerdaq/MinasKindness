@@ -37,17 +37,17 @@ function inserirRegistro($pdo, $nome, $telefone, $email, $assunto, $mensagem)
 <div class="conteiner">
   <div class="contact-box">
     <div class="contact-left">
-    <h3 id="contact-box_h3">SEND YOUR REQUEST</h3>
+    <h3 id="contact-box_h3">MANDE SUA MENSAGEM</h3>
       <form action="contato.php" method="POST">
       <div class="input-row">
         <div class="input-group">
-          <label id="contact-box_name">Name</label>
-          <input id="input-name" name="name" type="text" placeholder="Maria Smith">
+          <label id="contact-box_name">Nome</label>
+          <input id="input-name" name="name" type="text" placeholder="Maria Souza">
         </div>
 
         <div class="input-group">
-          <label id="contact-box_phone">Phone</label>
-          <input name="phone" id="plc_hlr_1" type="text" placeholder="">
+          <label id="contact-box_phone">Telefone</label>
+          <input name="phone" id="plc_hlr_1" type="text" placeholder="(31)99999-9999">
         </div>
       </div>
 
@@ -58,20 +58,20 @@ function inserirRegistro($pdo, $nome, $telefone, $email, $assunto, $mensagem)
                       </div>
 
                       <div class="input-group">
-                          <label id="contact-box_subj">Subject</label>
-                          <input id="plc_hlr_2" type="text" name="subject" placeholder="Product Demo">
+                          <label id="contact-box_subj">Assunto</label>
+                          <input id="plc_hlr_2" type="text" name="subject" placeholder="Cadastro da Empresa">
                       </div>
                   </div>
 
-                  <label id="contact-box_ms">Message</label>
-                  <textarea id="plc_hlr_3" rows="5" name="message" placeholder="Your Message"></textarea>
+                  <label id="contact-box_ms">Mensagem</label>
+                  <textarea id="plc_hlr_3" rows="5" name="message" placeholder="Sua mensagem(máximo de 250 caracteres)"></textarea>
               
-                  <button id="contact-box_btn" type="submit" name="submit">SEND</button>
+                  <button id="contact-box_btn" type="submit" name="submit">Enviar</button>
               </form>
           </div>
           
           <div class="contact-right">
-              <h3 id="contact-box_h3_2">REACH ME</h3>
+              <h3 id="contact-box_h3_2">CONTATO</h3>
           </div>
       </div>
   </div>
