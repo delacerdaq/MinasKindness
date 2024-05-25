@@ -1,5 +1,5 @@
 <?php
-  require("config.php");
+  require("model/config.php");
   
   if($_SERVER["REQUEST_METHOD"] == "POST"){
     $nome = ($_POST['name']);
@@ -29,7 +29,7 @@ function inserirRegistro($pdo, $nome, $telefone, $email, $assunto, $mensagem)
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
-    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="css/contato.css">
 </head>
 
 <body>
