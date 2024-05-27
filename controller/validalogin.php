@@ -1,7 +1,7 @@
 <?php
 // Inicie a sessão para manter o usuário autenticado
 session_start();
-require("config.php");
+require("../model/config.php");
 
 if (isset($_POST['email']) && isset($_POST['senha'])) {
     $email= $_POST['email'];
@@ -17,7 +17,7 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
     
     if ($stmt->rowCount() > 0) {
         $_SESSION['email'] = $email;
-        header('Location: paginaprincipal.php'); 
+        header('Location: ../view/paginaprincipal.php'); 
         exit();
     } else {
         echo "Login ou senha inválidos!";
