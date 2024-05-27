@@ -23,7 +23,7 @@
                         <h4 class="mt-1 mb-5 pb-1">Nós somos o MinasKindness!</h4>
                       </div>
       
-                      <form method="POST" action="validalogin.php">
+                      <form method="POST" action="../controller/validalogin.php">
                         <p>Por favor, faça login em sua conta</p>
       
                         <div data-mdb-input-init class="form-outline mb-4">
