@@ -1,0 +1,23 @@
+#nav-icons>a{
+    color: #000;
+}
+.ong-info{
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+}
+.ong-info h2{
+    margin-top: 0;
+}
+.donate-button{
+    background-color: #0E2038;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
