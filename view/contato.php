@@ -1,5 +1,5 @@
 <?php
-  require("model/config.php");
+  require("../model/config.php");
   
   if($_SERVER["REQUEST_METHOD"] == "POST"){
     $nome = ($_POST['name']);
