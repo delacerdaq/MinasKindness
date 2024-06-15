@@ -1,0 +1,21 @@
+#conteiner-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    background-color: #eee;
+}
+#info-form{
+    background-color: #0E2038;
+    padding: 30px;
+    border-radius: 10px;
+}
+#btn-submit{
+    background-color: #78ABB8;
+    border-color: #78ABB8;
+    color: #0E2038;
+    width: 150px;
+}
+
