@@ -56,7 +56,7 @@
 require ('../model/config.php');
 
 // Obter o parâmetro de busca
-$parametro = filter_input(INPUT_GET, "parametro", FILTER_SANITIZE_STRING);
+$parametro = filter_input(INPUT_GET, "parametro", FILTER_SANITIZE_SPECIAL_CHARS);
 
 // Função para listar registros com ou sem filtro
 function listarRegistros($pdo, $parametro = null) {
