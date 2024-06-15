@@ -25,4 +25,27 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
 } else {
     echo "Por favor, preencha todos os campos.";
 }
+
+if (isset($_POST['email']) && isset($_POST['senha'])) {
+    $email= $_POST['email'];
+    $senha = $_POST['senha'];
+
+    // Consulta SQL usando parâmetros para evitar SQL injection
+    $sql = "SELECT * FROM empresas WHERE email = :email AND senha = :senha";
+    
+    $stmt = $pdo->prepare($sql);
+    $stmt->bindParam(':email', $email);
+    $stmt->bindParam(':senha', $senha);
+    $stmt->execute();
+    
+    if ($stmt->rowCount() > 0) {
+        $_SESSION['email'] = $email;
+        header('Location: ../view/paginaprincipal.php'); 
+        exit();
+    } else {
+        echo "Login ou senha inválidos!";
+    }
+} else {
+    echo "Por favor, preencha todos os campos.";
+}
 ?>
