@@ -10,7 +10,7 @@ $estado = "";
 
 echo "Inserindo dados abaixo...<br>";
 
-require("config.php");
+require("../model/config.php");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nome = $_POST["nome"];
